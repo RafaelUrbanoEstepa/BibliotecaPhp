@@ -216,5 +216,5 @@ if ($_SESSION["vista"] == "prestamos") {
 </body>
 </html>
 <br><a href='cierraSesiones.php'>Salir</a><br>
-<br><a href=''>Enlace a GitHub</a><br>
+<br><a href='https://github.com/RafaelUrbanoEstepa/BibliotecaPhp'>Enlace a GitHub</a><br>
 

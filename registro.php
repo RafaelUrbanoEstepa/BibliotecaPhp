@@ -34,18 +34,18 @@ if ( $_POST["nombre"] != "" && $_POST["apellidos"] != "" && $_POST["dni"] != "" 
 </head>
 <body>
 <h1>Registro de usuarios</h1>
-<fieldset>
+<fieldset><br>
 <form action="registro.php" method="post">
     <label>Nombre: <input type="text" name="nombre" id="nombre"></label><br><br>
     <label>Apellidos: <input type="text" name="apellidos" id="apellidos"></label><br><br>
     <label>Dni: <input type="text" name="dni" id="dni"></label><br><br>
     <label>Usuario: <input type="text" name="user" id="user"></label><br><br>
     <label>Contraseña: <input type="password" name="psw" id="psw"></label><br><br>
-    <input type="submit" name="registro" value="Registrarse">
+    <input style="color: white;border: 1px solid blue; background:DarkCyan" type="submit" name="registro" value="Registrarse">
     </form>
     <?php echo $mensaje?>   
 </body>
 </fieldset>
 </html>
 <br><a href='cierraSesiones.php'>Volver al inicio</a><br>
-<br><a href=''>Enlace a GitHub</a><br>
+<br><a href='https://github.com/RafaelUrbanoEstepa/BibliotecaPhp'>Enlace a GitHub</a><br>
